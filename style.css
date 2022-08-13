@@ -1,0 +1,27 @@
+h1 {
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    position:relative;
+    width:90vw;
+    height: 90vh;
+    margin: auto;
+  }
+
+  .element{
+    position:absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    width: 50vw; height: 17vh;
+  }
+
+  /* just aesthetics */
+  body{
+    height: 100vh;
+    display:flex;
+    background: azure;
+  }
